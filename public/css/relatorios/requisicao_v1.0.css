@@ -1,0 +1,129 @@
+@page {
+    margin-top: 50px;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-bottom: 40px;
+}
+
+header {
+    position: fixed;
+    top: -30px;
+    margin-top: 110px;
+    left: 0px;
+    right: 0px;
+ /*   background-color: #03a9f4;
+    color: white; */
+    text-align: left;
+}
+
+footer {
+    position: fixed;
+    bottom: -10px;
+    height: 40px;
+   /* background-color: #03a9f4;
+    color: white;*/
+    text-align: center;
+}
+
+body{
+    font-family: helvetica,arial;
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 60px;
+}
+
+h3 {
+    margin:0px;
+    padding:0px;
+    font-size: 12px;
+}
+
+ul{
+    list-style-type: none;
+    -webkit-padding-start: 0px;
+    padding: 0px;
+    margin: 15px 10px 10px 10px;
+}
+
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+
+.font-12px{
+    font-size: 12px;
+}
+
+.pagina{
+    page-break-before: always;
+}
+.pagina:first-of-type{
+    page-break-before: never;
+}
+
+/*-------------------------------------------------------------------------
+| PURE-TABLE
+|--------------------------------------------------------------------------*/
+
+.pure-table {
+    /* Remove spacing between table cells (from Normalize.css) */
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    font-size: 10px;
+}
+
+.pure-table tr {
+    line-height: 9px;
+}
+
+.pure-table td,th{
+    border-bottom: solid 1px #cbcbcb;
+    font-size: inherit;
+    margin: 0;
+    overflow: visible; /*to make ths where the title is really long work*/
+    padding: 4px 10px; /* cell padding */
+}
+
+/* Consider removing this next declaration block, as it causes problems when
+there's a rowspan on the first cell. Case added to the tests. issue#432 */
+.pure-table td:first-child,
+.pure-table th:first-child {
+    border-left-width: 0;
+}
+
+
+.pure-table-striped tr:nth-child(2n-1) td {
+    background-color: #f2f2f2;
+}
+
+
+.div-titulo{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    font-weight: bolder;
+    font-size: 11px;
+    font-family: helvetica,arial;
+    border: 1px solid black;
+}
+
+.maiusculas{
+    text-transform:uppercase;
+}
+
+.minusculas{
+    text-transform:lowercase;
+}
+
+.height15{
+    line-height: 15px;
+}
+
+.sem_border_bottom{
+    border: 0;
+}
+
